@@ -1,5 +1,3 @@
-
-```nodejs
 // title : OAuth에 사용되는 base64로 변환하기
 // contents : Postman - Pre-request Scripts
 // dated : 2021-01-03
@@ -19,4 +17,3 @@ var base64 = CryptoJS.enc.Base64.stringify(words); // EX : string: 'SGVsbG8gd29y
 
 console.log(base64);
 pm.collectionVariables.set('authorization_basic', base64);
-```
